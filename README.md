@@ -61,6 +61,21 @@ Arquivo package.json
 
 ```
 
+> Obs: No repl.it não copiar tudo, apenas os seguintes trechos.
+
+```json
+{
+  "scripts": {
+    "build": "yarn tsc --build", // Esse aqui
+    "watch": "yarn tsc --build --watch", // Esse aqui
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0", //Somente esse aqui
+    "typescript": "^4.8.4"
+  }
+}
+```
+
 ## Rodando
 
 Crie uma pasta chamada `build/js` e uma chamada `src`, dentro da `src` crie os arquivos `.ts`.
