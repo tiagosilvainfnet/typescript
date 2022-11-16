@@ -82,8 +82,15 @@ Arquivo package.json
 Crie uma pasta chamada `build/js` e uma chamada `src`, dentro da `src` crie os arquivos `.ts`.
 Após isso, rode o comando a seguir para ver tudo rodando.
 
+Abra 2 consoles e rode
+
 ```console
 yarn watch
+```
+
+
+```console
+yarn js-watch
 ```
 
 
