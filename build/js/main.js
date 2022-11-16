@@ -30,3 +30,6 @@ class Conta {
         }
     }
 }
+let c1 = new Conta(1000, "Tiago Silva");
+c1.addValor(1000);
+c1.removeValor(300);

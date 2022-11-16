@@ -68,10 +68,11 @@ Arquivo package.json
   "scripts": {
     "build": "yarn tsc --build", // Esse aqui
     "watch": "yarn tsc --build --watch", // Esse aqui
+    "js-watch": "nodemon build/js/main.js" // Esse aqui
   },
   "devDependencies": {
-    "ts-node-dev": "^2.0.0", //Somente esse aqui
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "ts-node-dev": "^2.0.0" //Somente esse aqui
   }
 }
 ```
