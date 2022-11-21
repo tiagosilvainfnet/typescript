@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn tsc --build",
     "watch": "yarn tsc --build --watch",
-    "js-watch": "nodemon build/js/main.js" 
+    "js-watch": "nodemon build/js/main.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/tiagosilvainfnet/typescript#readme",
   "devDependencies": {
+    "@types/node": "^18.11.9",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "util": "^0.12.5"
   }
 }
